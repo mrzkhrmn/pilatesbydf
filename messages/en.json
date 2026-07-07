@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Pilates By DF | Elevated Movement & Wellness",
+      "description": "Find your balance with precision Pilates. A curated blend of traditional principles and modern athleticism."
+    },
+    "training": {
+      "title": "Training Library | Pilates By DF",
+      "description": "Discover our curated Pilates sessions."
+    },
+    "recipes": {
+      "title": "Recipes & Nutrition | Pilates By DF",
+      "description": "Restorative recipes and custom nutrition plans."
+    },
+    "shop": {
+      "title": "Shop | Pilates By DF",
+      "description": "Boutique Pilates equipment and apparel."
+    },
+    "membership": {
+      "title": "Membership | Pilates By DF",
+      "description": "Transform your practice with membership plans."
+    },
+    "blog": {
+      "title": "Blog & Community | Pilates By DF",
+      "description": "Stories on Pilates, nutrition, and wellness."
+    },
+    "notFound": {
+      "title": "Page Not Found | Pilates By DF",
+      "description": "The page you are looking for could not be found."
+    }
+  },
+  "nav": {
+    "training": "Training",
+    "recipes": "Recipes",
+    "shop": "Shop",
+    "membership": "Membership",
+    "blog": "Blog",
+    "search": "Search...",
+    "login": "Sign In"
+  },
+  "footer": {
+    "tagline": "A digital sanctuary for conscious movement and holistic wellness.",
+    "explore": "Explore",
+    "corporate": "Corporate",
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Stay informed about our latest flows and studio news.",
+    "emailPlaceholder": "Email Address",
+    "contact": "Contact Us",
+    "careers": "Careers",
+    "shipping": "Shipping & Returns",
+    "terms": "Terms of Service",
+    "copyright": "© 2024 Pilates By DF. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "badge": "Redefining Movement",
+      "title": "Find Your Balance with Precision Pilates.",
+      "description": "Experience a curated fusion of traditional principles and modern athleticism. At Pilates By DF, we guide you on a journey of physical grace and mental clarity. Currently available exclusively online through 1:1 and group classes.",
+      "ctaPrimary": "Start Your Journey",
+      "ctaSecondary": "View Class Schedule"
+    },
+    "whyUs": {
+      "title": "Science-Backed, Intentionally Elevated.",
+      "quote": "Our mission is to create a digital sanctuary where movement becomes a restorative dialogue between mind and body.",
+      "features": [
+        {
+          "icon": "video_camera_front",
+          "title": "Online Boutique Expertise",
+          "description": "Personalized instruction from certified expert trainers who understand alignment details, right from your screen."
+        },
+        {
+          "icon": "groups",
+          "title": "Live Group Classes",
+          "description": "Join our motivating group sessions from anywhere in the world, from the comfort of your home."
+        },
+        {
+          "icon": "person",
+          "title": "One-on-One Focus",
+          "description": "Accelerate your progress with flexible online programs focused on goals tailored just for you."
+        }
+      ]
+    },
+    "ecosystem": {
+      "title": "The Pilates Ecosystem",
+      "subtitle": "Everything you need to sustain a healthy, active lifestyle — curated for discerning individuals.",
+      "training": {
+        "badge": "Online Only: 1:1 & Group",
+        "title": "Training Programs",
+        "description": "From foundational mat work to advanced reformer flows, access our world-class curriculum from anywhere.",
+        "cta": "Explore Classes"
+      },
+      "recipes": {
+        "title": "Nutrition",
+        "description": "Anti-inflammatory recipes designed to fuel your movement.",
+        "cta": "View Recipes"
+      },
+      "shop": {
+        "title": "Shop",
+        "description": "Premium equipment and lifestyle essentials for your home sanctuary.",
+        "cta": "Browse Collection"
+      }
+    },
+    "app": {
+      "title": "Pilates in Your Pocket.",
+      "features": [
+        "Curated daily 20-minute flows",
+        "Progress tracking and posture analysis",
+        "Exclusive live sessions with master instructors"
+      ],
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "downloadFrom": "Download on the",
+      "getOn": "Get it on"
+    }
+  },
+  "training": {
+    "title": "Training Library",
+    "description": "Discover our curated Pilates sessions designed to restore balance, build functional strength, and enhance mental clarity through our 100% online studio.",
+    "searchPlaceholder": "Search classes...",
+    "filters": ["All Classes", "Beginner", "Intermediate", "Advanced", "Live Classes"],
+    "sortLabel": "Sort by:",
+    "sortOptions": ["Newest", "Longest", "Shortest", "Popularity"],
+    "pagination": "Page {current} / {total}",
+    "videos": [
+      {
+        "title": "Core Precision & Flow",
+        "description": "High-intensity online reformer session focused on deep core activation and spinal mobility.",
+        "duration": "45 Min",
+        "level": "Advanced"
+      },
+      {
+        "title": "Morning Restoration",
+        "description": "A gentle, mat-based online flow session designed to start your day aligned and energized.",
+        "duration": "20 Min",
+        "level": "Beginner"
+      },
+      {
+        "title": "Online Reformer Power",
+        "description": "Full-body conditioning session using resistance to challenge balance and build lean muscle.",
+        "duration": "35 Min",
+        "level": "Intermediate"
+      },
+      {
+        "title": "Classical Mat Flow",
+        "description": "Advanced 1:1 guided online session following Joseph Pilates' original 34 mat exercises.",
+        "duration": "50 Min",
+        "level": "Advanced"
+      },
+      {
+        "title": "Desk Break Series",
+        "description": "Quick online series you can do anywhere to reduce tension and improve posture.",
+        "duration": "15 Min",
+        "level": "Beginner"
+      },
+      {
+        "title": "Prop Mastery: Ring",
+        "description": "Online work on deep core activation and muscle targeting using the Pilates ring in mat flow.",
+        "duration": "30 Min",
+        "level": "Intermediate"
+      }
+    ]
+  },
+  "recipes": {
+    "hero": {
+      "badge": "Nutrition for flow",
+      "title": "Restorative Recipes & Custom Nutrition Plans",
+      "description": "Elevate your practice from the inside out. Our nutrition philosophy focuses on anti-inflammatory, whole-food ingredients designed to support recovery and sustain energy."
+    },
+    "seasonal": "Seasonal Recipes",
+    "categories": ["Breakfast", "Lunch", "Smoothie"],
+    "featured": {
+      "badge": "Post-Workout",
+      "title": "Restorative Green Bowl",
+      "time": "15 MIN",
+      "description": "A nutrient-dense blend of spinach, frozen mango, and spirulina; completed with activated nuts for perfect electrolyte balance after reformer sessions.",
+      "calories": "342",
+      "protein": "12g",
+      "fat": "8g",
+      "carbs": "45g"
+    },
+    "cards": [
+      {
+        "badge": "Breakfast",
+        "title": "Lemon Tahini Avocado Toast",
+        "meta": "280 kcal • 18g Protein"
+      },
+      {
+        "badge": "Dinner",
+        "title": "Wild Salmon & Asparagus",
+        "meta": "410 kcal • 34g Protein"
+      }
+    ],
+    "plans": {
+      "title": "Nutrition Plans",
+      "subtitle": "Goal-oriented nutrition programs.",
+      "plan1": {
+        "badge": "14-Day Challenge",
+        "title": "Anti-Inflammatory Glow",
+        "features": ["Zero refined sugar", "High Omega-3 focus", "Full meal prep guide"],
+        "cta": "View Full Plan"
+      },
+      "plan2": {
+        "badge": "Strength & Tone",
+        "title": "Protein Transformation",
+        "description": "Designed for those increasing reformer intensity. Optimized for muscle repair without bloating.",
+        "joined": "People joined"
+      },
+      "newsletter": {
+        "title": "Weekly Pantry Prep",
+        "description": "Receive 3 seasonal recipes in your inbox every Sunday morning.",
+        "cta": "Join"
+      }
+    },
+    "macros": {
+      "title": "Precision Nutrition",
+      "subtitle": "Understand how we balance our plates for the Pilates lifestyle.",
+      "items": [
+        {
+          "icon": "spa",
+          "title": "40% Healthy Fats",
+          "description": "Sustainable energy and hormone support from avocado, nuts, and extra virgin olive oil."
+        },
+        {
+          "icon": "fitness_center",
+          "title": "30% Lean Protein",
+          "description": "Essential amino acids for eccentric muscle loading and core repair."
+        },
+        {
+          "icon": "energy_savings_leaf",
+          "title": "30% Complex Carbs",
+          "description": "Slow-release glycogen from root vegetables and ancient grains for endurance."
+        }
+      ]
+    },
+    "macroLabels": {
+      "calories": "Calories",
+      "protein": "Protein",
+      "fat": "Fat",
+      "carbs": "Carbs"
+    }
+  },
+  "shop": {
+    "badge": "Essentials for your practice",
+    "title": "Boutique Shop",
+    "description": "Curated equipment and apparel designed for fluid movement and restorative elegance. Every piece is carefully selected to support your journey of mental clarity and physical strength.",
+    "filters": ["All Products", "Yoga Mats", "Apparel", "Bottles", "Accessories"],
+    "newArrival": "New Arrivals",
+    "featured": "Featured",
+    "addToCart": "Add to Cart",
+    "collection": {
+      "title": "Mindfulness Collection",
+      "description": "A limited-edition apparel series inspired by the colors of the morning sun.",
+      "cta": "Explore the Series"
+    },
+    "products": [
+      { "name": "Essential Reformer Mat", "variant": "Sage Green", "price": "$129.00" },
+      { "name": "Core Sculpt Leggings", "variant": "Espresso", "price": "$89.00" },
+      { "name": "Insulated Hydro Bottle", "variant": "Sand", "price": "$45.00" },
+      { "name": "Seamless Ribbed Crop", "variant": "Earth Tone", "price": "$58.00" },
+      { "name": "Alignment Block Set", "variant": "Natural Cork", "price": "$48.00" },
+      { "name": "Flow Motion Shorts", "variant": "Mist Grey", "price": "$62.00" }
+    ],
+    "featuredProduct": {
+      "name": "Pro Resistance Ring",
+      "description": "Professional-grade resistance to deepen your core activation and alignment.",
+      "price": "$72.00"
+    }
+  },
+  "membership": {
+    "hero": {
+      "badge": "Discover Your Center",
+      "title": "Transform Your Practice with Membership Plans",
+      "description": "Access boutique Reformer and Mat Pilates classes, nutrition guides, and a community dedicated to holistic wellness."
+    },
+    "popular": "Most Popular",
+    "perMonth": "/mo",
+    "getStarted": "Get Started",
+    "tiers": [
+      {
+        "name": "Basic",
+        "description": "Essential flows for steady progress.",
+        "price": "$29",
+        "features": [
+          "Unlimited Mat Pilates Classes",
+          "Basic Video Library",
+          "Community Forum Access"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Premium",
+        "description": "The full boutique experience.",
+        "price": "$59",
+        "features": [
+          "All Basic Features",
+          "Live Q&A Sessions",
+          "Nutrition Plan Access",
+          "Monthly 1:1 Online Coaching"
+        ],
+        "cta": "Go Premium"
+      },
+      {
+        "name": "VIP",
+        "description": "A personalized transformation journey.",
+        "price": "$119",
+        "features": [
+          "All Premium Features",
+          "Weekly 1:1 Private Sessions",
+          "Personal Nutrition Coaching",
+          "Priority Studio Access"
+        ],
+        "cta": "Become VIP"
+      }
+    ],
+    "comparison": {
+      "title": "Plan Comparison",
+      "features": [
+        "Mat Pilates Classes",
+        "Reformer Classes",
+        "Live Group Sessions",
+        "Nutrition Guides",
+        "1:1 Coaching",
+        "Priority Support"
+      ],
+      "basic": ["Unlimited", "—", "—", "—", "—", "—"],
+      "premium": ["Unlimited", "Unlimited", "Weekly", "Yes", "Monthly", "—"],
+      "vip": ["Unlimited", "Unlimited", "Daily", "Yes", "Weekly", "Yes"]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Can I cancel my membership anytime?",
+          "answer": "Yes, you can cancel your membership at any time. Cancellation takes effect from the next billing cycle."
+        },
+        {
+          "question": "How do I join live classes?",
+          "answer": "Premium and VIP members can access the live class calendar and make reservations through the app or web dashboard."
+        },
+        {
+          "question": "How are 1:1 sessions scheduled?",
+          "answer": "VIP members schedule weekly sessions, and Premium members schedule monthly 1:1 sessions directly with their instructors."
+        }
+      ]
+    }
+  },
+  "blog": {
+    "hero": {
+      "badge": "Featured Story",
+      "title": "Finding Stillness: The Art of Restorative Pilates",
+      "description": "Discover how controlled movement and breathwork can transform your mental clarity and physical grace.",
+      "author": "Daniella Floress",
+      "role": "Founder & Head Instructor",
+      "readTime": "8 Min Read",
+      "discussion": "This completely changed my morning routine."
+    },
+    "categories": ["All Stories", "Wellness Tips", "Studio News", "Nutrition", "Interviews"],
+    "filter": "Filter",
+    "searchPlaceholder": "Search articles...",
+    "articles": [
+      {
+        "category": "Studio Design",
+        "title": "Architecture of Calm: Boutique Studio Design",
+        "excerpt": "Discover how physical space supports mental focus.",
+        "readTime": "6 min read"
+      },
+      {
+        "category": "Wellness",
+        "title": "The Power of Breath: Breathing in Pilates",
+        "excerpt": "How proper breathing techniques enhance your performance.",
+        "readTime": "5 min read"
+      },
+      {
+        "category": "Nutrition",
+        "title": "Pre-Workout Nutrition Guide",
+        "excerpt": "Best nutrition strategies to sustain your energy.",
+        "readTime": "4 min read"
+      },
+      {
+        "category": "Interview",
+        "title": "Conversations with Our Instructors",
+        "excerpt": "About their Pilates journeys and sources of inspiration.",
+        "readTime": "10 min read"
+      }
+    ],
+    "trending": {
+      "title": "Trending",
+      "items": [
+        "Home Reformer Setup",
+        "Morning Flow Routine",
+        "Core Strengthening Tips",
+        "Seasonal Nutrition"
+      ]
+    },
+    "newsletter": {
+      "title": "Join Our Community",
+      "description": "Subscribe for weekly wellness content and exclusive studio updates.",
+      "placeholder": "Your email address",
+      "cta": "Subscribe"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for may have been moved or no longer exists.",
+    "cta": "Back to Home"
+  }
+}

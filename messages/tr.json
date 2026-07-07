@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Pilates By DF | Üst Düzey Hareket ve Esenlik",
+      "description": "Hassas Pilates ile dengeni bul. Geleneksel ilkeler ve modern atletizmin küratörlüğünde bir birleşim."
+    },
+    "training": {
+      "title": "Eğitim Kütüphanesi | Pilates By DF",
+      "description": "Küratörlü Pilates seanslarımızı keşfedin."
+    },
+    "recipes": {
+      "title": "Tarifler ve Beslenme | Pilates By DF",
+      "description": "Onarıcı tarifler ve özel beslenme planları."
+    },
+    "shop": {
+      "title": "Mağaza | Pilates By DF",
+      "description": "Butik Pilates ekipmanları ve kıyafetleri."
+    },
+    "membership": {
+      "title": "Üyelik | Pilates By DF",
+      "description": "Üyelik paketleri ile pratiğinizi dönüştürün."
+    },
+    "blog": {
+      "title": "Blog ve Topluluk | Pilates By DF",
+      "description": "Pilates, beslenme ve esenlik hikayeleri."
+    },
+    "notFound": {
+      "title": "Sayfa Bulunamadı | Pilates By DF",
+      "description": "Aradığınız sayfa bulunamadı."
+    }
+  },
+  "nav": {
+    "training": "Eğitim",
+    "recipes": "Tarifler",
+    "shop": "Mağaza",
+    "membership": "Üyelik",
+    "blog": "Blog",
+    "search": "Ara...",
+    "login": "Giriş Yap"
+  },
+  "footer": {
+    "tagline": "Bilinçli hareket ve bütünsel esenlik için dijital bir sığınak.",
+    "explore": "Keşfet",
+    "corporate": "Kurumsal",
+    "newsletter": "Bülten",
+    "newsletterDesc": "En yeni akışlarımız ve stüdyo haberlerimizden haberdar olun.",
+    "emailPlaceholder": "E-posta Adresi",
+    "contact": "Bize Ulaşın",
+    "careers": "Kariyer",
+    "shipping": "Gönderim ve İade",
+    "terms": "Hizmet Şartları",
+    "copyright": "© 2024 Pilates By DF. Tüm hakları saklıdır."
+  },
+  "home": {
+    "hero": {
+      "badge": "Hareketi Yeniden Tanımlıyoruz",
+      "title": "Hassas Pilates ile Dengeni Bul.",
+      "description": "Geleneksel ilkelerin ve modern atletizmin küratörlüğünde bir birleşimini deneyimleyin. Pilates By DF ile size fiziksel zarafet ve zihinsel berraklık yolculuğunda rehberlik ediyoruz. Şu anda sadece bire bir (1:1) ve grup dersleri olarak online platformda hizmetinizdeyiz.",
+      "ctaPrimary": "Yolculuğuna Başla",
+      "ctaSecondary": "Ders Programını Gör"
+    },
+    "whyUs": {
+      "title": "Bilime Dayalı, Niyetle Yükselen.",
+      "quote": "Misyonumuz, hareketin zihin ve beden arasında onarıcı bir diyaloğa dönüştüğü dijital bir sığınak yaratmaktır.",
+      "features": [
+        {
+          "icon": "video_camera_front",
+          "title": "Online Butik Uzmanlık",
+          "description": "Hizalama detaylarını anlayan sertifikalı uzman eğitmenlerden ekran başında kişiselleştirilmiş eğitim."
+        },
+        {
+          "icon": "groups",
+          "title": "Canlı Grup Dersleri",
+          "description": "Evinizin konforunda, motivasyon dolu grup seanslarımıza dünyanın her yerinden katılın."
+        },
+        {
+          "icon": "person",
+          "title": "Bire Bir Odak",
+          "description": "Sadece size özel hedeflere odaklanan, esnek online programlarla gelişiminizi hızlandırın."
+        }
+      ]
+    },
+    "ecosystem": {
+      "title": "Pilates Ekosistemi",
+      "subtitle": "Sağlıklı ve hareketli bir yaşam tarzını sürdürmek için ihtiyacınız olan her şey, seçici bireyler için küratörlükle hazırlandı.",
+      "training": {
+        "badge": "Sadece Online: 1:1 ve Grup",
+        "title": "Eğitim Programları",
+        "description": "Temel mat çalışmalarından ileri düzey reformer akışlarına kadar, dünya standartlarındaki müfredatımıza her yerden erişin.",
+        "cta": "Dersleri Keşfet"
+      },
+      "recipes": {
+        "title": "Beslenme",
+        "description": "Hareketinizi beslemek için tasarlanmış anti-inflamatuar tarifler.",
+        "cta": "Tarifleri Gör"
+      },
+      "shop": {
+        "title": "Mağaza",
+        "description": "Evdeki sığınağınız için üst düzey ekipmanlar ve yaşam tarzı temelleri.",
+        "cta": "Koleksiyonu İncele"
+      }
+    },
+    "app": {
+      "title": "Pilates Cebinizde.",
+      "features": [
+        "Küratörlü günlük 20 dakikalık akışlar",
+        "İlerleme takibi ve duruş analizi",
+        "Usta eğitmenlerle özel canlı seanslar"
+      ],
+      "appStore": "App Store",
+      "googlePlay": "Google Play",
+      "downloadFrom": "Şuradan indirin:",
+      "getOn": "Şuradan edinin:"
+    }
+  },
+  "training": {
+    "title": "Eğitim Kütüphanesi",
+    "description": "%100 online stüdyomuzla dengeyi yeniden kurmak, fonksiyonel güç kazanmak ve zihinsel berraklığınızı artırmak için tasarlanmış küratörlü Pilates seanslarımızı keşfedin.",
+    "searchPlaceholder": "Ders ara...",
+    "filters": ["Tüm Dersler", "Başlangıç", "Orta", "İleri", "Canlı Dersler"],
+    "sortLabel": "Sıralama:",
+    "sortOptions": ["En Yeni", "En Uzun Süre", "En Kısa Süre", "Popülerlik"],
+    "pagination": "Sayfa {current} / {total}",
+    "videos": [
+      {
+        "title": "Karın Hassasiyeti ve Akış",
+        "description": "Derin karın aktivasyonuna ve omurga hareketliliğine odaklanan, yüksek yoğunluklu online reformer seansı.",
+        "duration": "45 Dk",
+        "level": "İleri"
+      },
+      {
+        "title": "Sabah Restorasyonu",
+        "description": "Güne zinde başlamak ve zihni hizalamak için tasarlanmış nazik, mat temelli online akış seansı.",
+        "duration": "20 Dk",
+        "level": "Başlangıç"
+      },
+      {
+        "title": "Online Reformer Güç",
+        "description": "Dengeyi zorlamak ve yağsız kas kütlesi oluşturmak için direnç kullanan tüm vücut kondisyonlama seansı.",
+        "duration": "35 Dk",
+        "level": "Orta"
+      },
+      {
+        "title": "Klasik Mat Akışı",
+        "description": "Joseph Pilates'in orijinal 34 mat egzersizini takip eden, ileri seviye 1:1 online rehberli seans.",
+        "duration": "50 Dk",
+        "level": "İleri"
+      },
+      {
+        "title": "Masa Başı Molası",
+        "description": "Gerginliği azaltmak ve duruşu düzeltmek için tasarlanmış, her yerde yapabileceğiniz hızlı online seri.",
+        "duration": "15 Dk",
+        "level": "Başlangıç"
+      },
+      {
+        "title": "Prop Uzmanlığı: Çember",
+        "description": "Pilates çemberini kullanarak mat akışında derin core aktivasyonu ve kas hedeflemesi üzerine online çalışma.",
+        "duration": "30 Dk",
+        "level": "Orta"
+      }
+    ]
+  },
+  "recipes": {
+    "hero": {
+      "badge": "Akış için beslenme",
+      "title": "Onarıcı Tarifler & Özel Beslenme Planları",
+      "description": "Pratiğinizi içeriden dışarıya yükseltin. Beslenme felsefemiz, iyileşmeyi desteklemek ve enerjiyi korumak için tasarlanmış anti-inflamatuar, tam gıda içeriklerine odaklanır."
+    },
+    "seasonal": "Mevsimsel Tarifler",
+    "categories": ["Kahvaltı", "Öğle Yemeği", "Smoothie"],
+    "featured": {
+      "badge": "Antrenman Sonrası",
+      "title": "Onarıcı Yeşil Kase",
+      "time": "15 DK",
+      "description": "Ispanak, dondurulmuş mango ve spirulina'nın besin değeri yüksek karışımı; reformer seanslarından sonra mükemmel elektrolit dengesi için aktif yemişlerle tamamlandı.",
+      "calories": "342",
+      "protein": "12g",
+      "fat": "8g",
+      "carbs": "45g"
+    },
+    "cards": [
+      {
+        "badge": "Kahvaltı",
+        "title": "Limonlu Tahinli Avokado Tost",
+        "meta": "280 kcal • 18g Protein"
+      },
+      {
+        "badge": "Akşam Yemeği",
+        "title": "Yabani Somon & Kuşkonmaz",
+        "meta": "410 kcal • 34g Protein"
+      }
+    ],
+    "plans": {
+      "title": "Beslenme Planları",
+      "subtitle": "Hedef odaklı beslenme programları.",
+      "plan1": {
+        "badge": "14 Günlük Meydan Okuma",
+        "title": "Anti-Inflamatuar Işıltı",
+        "features": ["Sıfır rafine şeker", "Yüksek Omega-3 odaklı", "Tam öğün hazırlama rehberi"],
+        "cta": "Tüm Planı Görüntüle"
+      },
+      "plan2": {
+        "badge": "Güç & Sıkılaşma",
+        "title": "Protein Dönüşümü",
+        "description": "Reformer yoğunluğunu artıranlar için tasarlandı. Şişkinlik yapmadan kas onarımı için optimize edildi.",
+        "joined": "Kişi katıldı"
+      },
+      "newsletter": {
+        "title": "Haftalık Kiler Hazırlığı",
+        "description": "Her Pazar sabahı gelen kutunuza 3 mevsimsel tarif alın.",
+        "cta": "Katıl"
+      }
+    },
+    "macros": {
+      "title": "Hassas Beslenme",
+      "subtitle": "Pilates yaşam tarzı için tabaklarımızı nasıl dengelediğimizi anlayın.",
+      "items": [
+        {
+          "icon": "spa",
+          "title": "%40 Sağlıklı Yağlar",
+          "description": "Avokado, kuruyemiş ve sızma zeytinyağı ile sürdürülebilir enerji ve hormon desteği."
+        },
+        {
+          "icon": "fitness_center",
+          "title": "%30 Yağsız Protein",
+          "description": "Eksantrik kas yüklemesi ve merkez onarımı için temel amino asitler."
+        },
+        {
+          "icon": "energy_savings_leaf",
+          "title": "%30 Kompleks Karbonhidrat",
+          "description": "Dayanıklılık için kök sebzelerden ve kadim tahıllardan yavaş salınan glikojen."
+        }
+      ]
+    },
+    "macroLabels": {
+      "calories": "Kalori",
+      "protein": "Protein",
+      "fat": "Yağ",
+      "carbs": "Karbonhidrat"
+    }
+  },
+  "shop": {
+    "badge": "Egzersiziniz için temel ihtiyaçlar",
+    "title": "Butik Mağaza",
+    "description": "Akıcı hareket ve yenileyici zarafet için tasarlanmış seçkin ekipman ve kıyafetler. Zihinsel berraklık ve fiziksel güç yolculuğunuzu desteklemek için her parça özenle seçildi.",
+    "filters": ["Tüm Ürünler", "Yoga Matları", "Giyim", "Suluklar", "Aksesuarlar"],
+    "newArrival": "Yeni Gelenler",
+    "featured": "Öne Çıkan",
+    "addToCart": "Sepete Ekle",
+    "collection": {
+      "title": "Farkındalık Koleksiyonu",
+      "description": "Sabah güneşinin renklerinden ilham alan, sınırlı sayıda üretilen kıyafet serisi.",
+      "cta": "Seriyi Keşfedin"
+    },
+    "products": [
+      { "name": "Temel Reformer Matı", "variant": "Adaçayı Yeşili", "price": "₺3.950,00" },
+      { "name": "Core Sculpt Tayt", "variant": "Espresso", "price": "₺2.850,00" },
+      { "name": "Yalıtımlı Hidro Suluk", "variant": "Kum Rengi", "price": "₺1.450,00" },
+      { "name": "Dikişsiz Fitilli Crop", "variant": "Toprak Tonu", "price": "₺1.950,00" },
+      { "name": "Hizalama Blok Seti", "variant": "Doğal Mantar", "price": "₺1.650,00" },
+      { "name": "Flow Motion Şort", "variant": "Sis Grisi", "price": "₺2.150,00" }
+    ],
+    "featuredProduct": {
+      "name": "Pro Direnç Çemberi",
+      "description": "Merkez bölge aktivasyonunuzu ve hizalanmanızı derinleştirmek için profesyonel seviye direnç.",
+      "price": "₺2.450,00"
+    }
+  },
+  "membership": {
+    "hero": {
+      "badge": "Merkezinizi Keşfedin",
+      "title": "Üyelik Paketleri ile Pratiğinizi Dönüştürün",
+      "description": "Butik Reformer ve Mat pilates derslerine, beslenme rehberlerine ve bütünsel zindeliğe adanmış bir topluluğa erişin."
+    },
+    "popular": "En Popüler",
+    "perMonth": "/ay",
+    "getStarted": "Hemen Başla",
+    "tiers": [
+      {
+        "name": "Temel",
+        "description": "Düzenli gelişim için temel akışlar.",
+        "price": "₺490",
+        "features": [
+          "Sınırsız Mat Pilates Dersleri",
+          "Temel Video Kütüphanesi",
+          "Topluluk Forumu Erişimi"
+        ],
+        "cta": "Hemen Başla"
+      },
+      {
+        "name": "Premium",
+        "description": "Tam kapsamlı butik deneyimi.",
+        "price": "₺950",
+        "features": [
+          "Tüm Temel Özellikler",
+          "Canlı Soru-Cevap Oturumları",
+          "Beslenme Planlarına Erişim",
+          "Aylık 1:1 Online Koçluk"
+        ],
+        "cta": "Premium'a Geç"
+      },
+      {
+        "name": "VIP",
+        "description": "Kişiselleştirilmiş dönüşüm yolculuğu.",
+        "price": "₺1.890",
+        "features": [
+          "Tüm Premium Özellikler",
+          "Haftalık 1:1 Özel Dersler",
+          "Kişisel Beslenme Koçluğu",
+          "Öncelikli Stüdyo Erişimi"
+        ],
+        "cta": "VIP Ol"
+      }
+    ],
+    "comparison": {
+      "title": "Plan Karşılaştırması",
+      "features": [
+        "Mat Pilates Dersleri",
+        "Reformer Dersleri",
+        "Canlı Grup Seansları",
+        "Beslenme Rehberleri",
+        "1:1 Koçluk",
+        "Öncelikli Destek"
+      ],
+      "basic": ["Sınırsız", "—", "—", "—", "—", "—"],
+      "premium": ["Sınırsız", "Sınırsız", "Haftalık", "Evet", "Aylık", "—"],
+      "vip": ["Sınırsız", "Sınırsız", "Günlük", "Evet", "Haftalık", "Evet"]
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "items": [
+        {
+          "question": "Üyeliğimi istediğim zaman iptal edebilir miyim?",
+          "answer": "Evet, üyeliğinizi dilediğiniz zaman iptal edebilirsiniz. İptal işlemi bir sonraki fatura döneminden itibaren geçerli olur."
+        },
+        {
+          "question": "Canlı derslere nasıl katılabilirim?",
+          "answer": "Premium ve VIP üyelerimiz, uygulama veya web paneli üzerinden canlı ders takvimine erişebilir ve rezervasyon yapabilir."
+        },
+        {
+          "question": "1:1 dersler nasıl planlanır?",
+          "answer": "VIP üyelerimiz haftalık, Premium üyelerimiz aylık 1:1 seanslarını eğitmenleriyle doğrudan koordine eder."
+        }
+      ]
+    }
+  },
+  "blog": {
+    "hero": {
+      "badge": "Öne Çıkan Hikaye",
+      "title": "Dinginliği Bulmak: Restoratif Pilates Sanatı",
+      "description": "Kontrollü hareket ve nefes çalışmasının zihinsel berraklığınızı ve fiziksel zarafetinizi nasıl dönüştürebileceğini keşfedin.",
+      "author": "Daniella Floress",
+      "role": "Kurucu ve Baş Eğitmen",
+      "readTime": "8 Dakika Okuma",
+      "discussion": "Bu sabah rutinimi tamamen değiştirdi."
+    },
+    "categories": ["Tüm Hikayeler", "Sağlık İpuçları", "Stüdyo Haberleri", "Beslenme", "Röportajlar"],
+    "filter": "Filtrele",
+    "searchPlaceholder": "Makale ara...",
+    "articles": [
+      {
+        "category": "Stüdyo Tasarımı",
+        "title": "Sakinliğin Mimarisi: Butik Stüdyo Tasarımı",
+        "excerpt": "Fiziksel alanın zihinsel odaklanmayı nasıl desteklediğini keşfedin.",
+        "readTime": "6 dk okuma"
+      },
+      {
+        "category": "Sağlık",
+        "title": "Nefesin Gücü: Pilates'te Solunum",
+        "excerpt": "Doğru nefes teknikleri performansınızı nasıl artırır.",
+        "readTime": "5 dk okuma"
+      },
+      {
+        "category": "Beslenme",
+        "title": "Antrenman Öncesi Beslenme Rehberi",
+        "excerpt": "Enerjinizi korumak için en iyi beslenme stratejileri.",
+        "readTime": "4 dk okuma"
+      },
+      {
+        "category": "Röportaj",
+        "title": "Eğitmenlerimizle Söyleşi",
+        "excerpt": "Pilates yolculukları ve ilham kaynakları hakkında.",
+        "readTime": "10 dk okuma"
+      }
+    ],
+    "trending": {
+      "title": "Gündemde",
+      "items": [
+        "Evde Reformer Kurulumu",
+        "Sabah Akışı Rutini",
+        "Core Güçlendirme İpuçları",
+        "Mevsimsel Beslenme"
+      ]
+    },
+    "newsletter": {
+      "title": "Topluluğumuza Katılın",
+      "description": "Haftalık wellness içerikleri ve özel stüdyo güncellemeleri için abone olun.",
+      "placeholder": "E-posta adresiniz",
+      "cta": "Abone Ol"
+    }
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa taşınmış veya mevcut değil olabilir.",
+    "cta": "Ana Sayfaya Dön"
+  }
+}
