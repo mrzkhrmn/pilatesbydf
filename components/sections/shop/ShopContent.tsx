@@ -125,7 +125,7 @@ export function ShopContent() {
           </div>
         </div>
 
-        <section className="mt-xl relative h-[400px] rounded-xl overflow-hidden group">
+        <section className="mt-xl relative min-h-[360px] md:min-h-[400px] rounded-xl overflow-hidden group">
           <Image
             src={images.shop[7]}
             alt={t("collection.title")}
@@ -133,16 +133,16 @@ export function ShopContent() {
             className="object-cover transition-transform duration-[2s] group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-primary/20 backdrop-blur-[2px]" />
-          <div className="relative z-10 h-full flex flex-col justify-center items-center text-center p-md">
-            <h2 className="font-display-lg text-display-lg text-white mb-md drop-shadow-sm">
+          <div className="relative z-10 flex min-h-[360px] md:min-h-[400px] flex-col items-center justify-center px-gutter py-xl text-center">
+            <h2 className="font-display-lg text-display-lg text-white mb-md drop-shadow-sm max-w-2xl">
               {t("collection.title")}
             </h2>
-            <p className="font-body-lg text-body-lg text-white/90 max-w-xl mb-lg">
+            <p className="font-body-lg text-body-lg text-white/90 mb-lg w-full max-w-xl text-pretty">
               {t("collection.description")}
             </p>
             <button
               type="button"
-              className="bg-white text-primary px-xl py-base rounded-full font-label-lg hover:bg-surface transition-all scale-100 hover:scale-105 active:scale-95"
+              className="bg-white text-primary px-xl py-base rounded-full font-label-lg hover:bg-surface transition-all scale-100 hover:scale-105 active:scale-95 shrink-0"
             >
               {t("collection.cta")}
             </button>

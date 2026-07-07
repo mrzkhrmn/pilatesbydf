@@ -29,9 +29,6 @@ export function Footer() {
                 height={32}
                 className="h-8 w-8 object-contain shrink-0"
               />
-              <span className="font-display-lg text-headline-md text-primary">
-                Pilates By DF
-              </span>
             </div>
             <p className="text-on-surface-variant font-body-md mb-lg">{t("tagline")}</p>
             <div className="flex gap-md">
@@ -109,7 +106,7 @@ export function Footer() {
 
         <div className="mt-xl pt-lg border-t border-outline-variant/10 text-center">
           <p className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">
-            {t("copyright")}
+            {t("copyright", { year: new Date().getFullYear() })}
           </p>
         </div>
       </Container>

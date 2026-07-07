@@ -49,7 +49,7 @@
     "careers": "Careers",
     "shipping": "Shipping & Returns",
     "terms": "Terms of Service",
-    "copyright": "© 2024 Pilates By DF. All rights reserved."
+    "copyright": "© {year} Pilates By DF. All rights reserved."
   },
   "home": {
     "hero": {

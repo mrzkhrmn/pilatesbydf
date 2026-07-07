@@ -49,7 +49,7 @@
     "careers": "Kariyer",
     "shipping": "Gönderim ve İade",
     "terms": "Hizmet Şartları",
-    "copyright": "© 2024 Pilates By DF. Tüm hakları saklıdır."
+    "copyright": "© {year} Pilates By DF. Tüm hakları saklıdır."
   },
   "home": {
     "hero": {
