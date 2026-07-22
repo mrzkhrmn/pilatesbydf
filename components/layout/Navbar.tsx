@@ -68,10 +68,10 @@ export function Navbar() {
           <LocaleSwitcher />
           <button
             type="button"
-            className="hidden md:block"
+            className="hidden md:flex items-center justify-center p-2 text-primary hover:opacity-80 transition-all"
             aria-label="Cart"
           >
-            <Icon name="shopping_cart" className="text-primary hover:opacity-80 transition-all p-2" />
+            <Icon name="shopping_cart" size={28} />
           </button>
           <button
             type="button"

@@ -17,7 +17,7 @@ export function SectionHeading({
       {subtitle && (
         <p
           className={`text-on-surface-variant mt-md font-body-md ${
-            align === "center" ? "max-w-xl mx-auto" : "max-w-2xl"
+            align === "center" ? "w-[500px] mx-auto" : "w-[500px]"
           }`}
         >
           {subtitle}

@@ -18,7 +18,7 @@ export async function EcosystemSection() {
         </RevealOnScroll>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-md h-auto md:h-[600px]">
-          <RevealOnScroll className="md:col-span-8 group relative overflow-hidden rounded-2xl">
+          <RevealOnScroll className="md:col-span-8 group relative overflow-hidden rounded-2xl min-h-[420px] md:min-h-0">
             <div className="absolute inset-0">
               <Image
                 src={images.home.training}
@@ -35,7 +35,7 @@ export async function EcosystemSection() {
               <h3 className="font-headline-lg text-headline-lg mb-sm">
                 {t("training.title")}
               </h3>
-              <p className="font-body-md max-w-md mb-md opacity-90">
+              <p className="font-body-md max-w-2xl mb-md opacity-90">
                 {t("training.description")}
               </p>
               <Link
@@ -49,7 +49,7 @@ export async function EcosystemSection() {
 
           <RevealOnScroll
             delay={150}
-            className="md:col-span-4 group relative overflow-hidden rounded-2xl"
+            className="md:col-span-4 group relative overflow-hidden rounded-2xl min-h-[320px] md:min-h-0"
           >
             <div className="absolute inset-0">
               <Image
@@ -64,7 +64,9 @@ export async function EcosystemSection() {
               <h3 className="font-headline-lg text-headline-lg mb-sm">
                 {t("recipes.title")}
               </h3>
-              <p className="font-body-md mb-md opacity-90">{t("recipes.description")}</p>
+              <p className="font-body-md mb-md opacity-90">
+                {t("recipes.description")}
+              </p>
               <Link
                 href="/recipes"
                 className="text-surface font-label-lg flex items-center gap-xs hover:gap-sm transition-all"
@@ -92,10 +94,12 @@ export async function EcosystemSection() {
                 <h3 className="font-headline-lg text-headline-lg mb-sm">
                   {t("shop.title")}
                 </h3>
-                <p className="font-body-md mb-md opacity-90">{t("shop.description")}</p>
+                <p className="font-body-md mb-md opacity-90 w-5xl">
+                  {t("shop.description")}
+                </p>
                 <Link
                   href="/shop"
-                  className="inline-block bg-primary text-on-primary px-8 py-3 rounded-full font-label-lg hover:opacity-90 transition-all"
+                  className="inline-block bg-primary text-on-primary px-8 py-3 rounded-full font-label-lg hover:opacity-90 transition-all text-nowrap"
                 >
                   {t("shop.cta")}
                 </Link>
