@@ -4,21 +4,20 @@ import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/layout/Container";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { Icon } from "@/components/ui/Icon";
 import { images } from "@/lib/images";
 
 export async function EcosystemSection() {
   const t = await getTranslations("home.ecosystem");
 
   return (
-    <section className="py-xl">
+    <section className="py-lg md:py-xl">
       <Container>
-        <RevealOnScroll className="mb-xl">
+        <RevealOnScroll className="mb-lg md:mb-xl px-0">
           <SectionHeading title={t("title")} subtitle={t("subtitle")} />
         </RevealOnScroll>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-md h-auto md:h-[600px]">
-          <RevealOnScroll className="md:col-span-8 group relative overflow-hidden rounded-2xl min-h-[420px] md:min-h-0">
+          <RevealOnScroll className="md:col-span-12 group relative overflow-hidden rounded-2xl min-h-[340px] sm:min-h-[420px] md:min-h-0">
             <div className="absolute inset-0">
               <Image
                 src={images.home.training}
@@ -27,26 +26,27 @@ export async function EcosystemSection() {
                 className="object-cover object-center transition-transform duration-700 group-hover:scale-110"
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-            <div className="absolute bottom-0 left-0 p-lg text-surface">
-              <span className="font-label-sm uppercase tracking-widest bg-primary/40 backdrop-blur-md px-3 py-1 rounded mb-md inline-block">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-md md:p-lg text-surface">
+              <span className="font-label-sm uppercase tracking-widest bg-primary/40 backdrop-blur-md px-3 py-1 rounded mb-sm md:mb-md inline-block">
                 {t("training.badge")}
               </span>
-              <h3 className="font-headline-lg text-headline-lg mb-sm">
+              <h3 className="font-headline-lg text-headline-md md:text-headline-lg mb-xs md:mb-sm">
                 {t("training.title")}
               </h3>
-              <p className="font-body-md max-w-2xl mb-md opacity-90">
+              <p className="font-body-md text-sm md:text-body-md max-w-2xl mb-sm md:mb-md opacity-90">
                 {t("training.description")}
               </p>
               <Link
                 href="/training"
-                className="inline-block bg-surface text-primary px-6 py-2 rounded-full font-label-lg hover:bg-primary-fixed transition-all"
+                className="inline-block bg-surface text-primary px-5 py-2 md:px-6 rounded-full font-label-lg hover:bg-primary-fixed transition-all"
               >
                 {t("training.cta")}
               </Link>
             </div>
           </RevealOnScroll>
 
+          {/* Tarifler — şimdilik pasif
           <RevealOnScroll
             delay={150}
             className="md:col-span-4 group relative overflow-hidden rounded-2xl min-h-[320px] md:min-h-0"
@@ -75,7 +75,9 @@ export async function EcosystemSection() {
               </Link>
             </div>
           </RevealOnScroll>
+          */}
 
+          {/* Mağaza — şimdilik pasif
           <RevealOnScroll
             delay={300}
             className="md:col-span-12 h-64 md:h-auto group relative overflow-hidden rounded-2xl"
@@ -106,6 +108,7 @@ export async function EcosystemSection() {
               </div>
             </div>
           </RevealOnScroll>
+          */}
         </div>
       </Container>
     </section>

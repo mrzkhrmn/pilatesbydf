@@ -13,11 +13,13 @@ export function SectionHeading({
     <div
       className={`${align === "center" ? "text-center" : "text-left"} ${className}`}
     >
-      <h2 className="font-display-lg text-display-lg text-primary">{title}</h2>
+      <h2 className="font-display-lg text-[1.75rem] sm:text-[2.25rem] md:text-display-lg text-primary leading-tight">
+        {title}
+      </h2>
       {subtitle && (
         <p
-          className={`text-on-surface-variant mt-md font-body-md ${
-            align === "center" ? "w-[500px] mx-auto" : "w-[500px]"
+          className={`text-on-surface-variant mt-sm md:mt-md font-body-md text-body-md max-w-[500px] w-full ${
+            align === "center" ? "mx-auto" : ""
           }`}
         >
           {subtitle}
