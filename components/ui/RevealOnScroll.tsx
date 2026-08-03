@@ -6,10 +6,12 @@ export function RevealOnScroll({
   children,
   className = "",
   delay = 0,
+  from = "up",
 }: {
   children: React.ReactNode;
   className?: string;
   delay?: number;
+  from?: "up" | "left" | "right";
 }) {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -32,10 +34,13 @@ export function RevealOnScroll({
     return () => observer.disconnect();
   }, []);
 
+  const directionClass =
+    from === "left" ? "from-left" : from === "right" ? "from-right" : "";
+
   return (
     <div
       ref={ref}
-      className={`reveal-on-scroll ${className}`}
+      className={`reveal-on-scroll ${directionClass} ${className}`.trim()}
       style={delay ? { transitionDelay: `${delay}ms` } : undefined}
     >
       {children}

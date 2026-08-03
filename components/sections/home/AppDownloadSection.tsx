@@ -10,23 +10,27 @@ export async function AppDownloadSection() {
   const features = [0, 1, 2] as const;
 
   return (
-    <section className="py-xl relative overflow-hidden">
+    <section className="py-lg md:py-xl relative overflow-hidden">
       <Container className="relative z-10">
-        <div className="bg-primary rounded-[40px] overflow-hidden p-lg md:p-xl flex flex-col md:flex-row items-center gap-xl text-on-primary">
-          <RevealOnScroll className="flex-1">
-            <h2 className="font-display-lg text-display-lg mb-md">{t("title")}</h2>
-            <ul className="space-y-md mb-xl">
+        <div className="bg-primary rounded-[24px] md:rounded-[40px] overflow-hidden p-md sm:p-lg md:p-xl flex flex-col md:flex-row items-center gap-lg md:gap-xl text-on-primary">
+          <RevealOnScroll className="flex-1 w-full">
+            <h2 className="font-display-lg text-[1.75rem] sm:text-[2.25rem] md:text-display-lg mb-sm md:mb-md leading-tight">
+              {t("title")}
+            </h2>
+            <ul className="space-y-sm md:space-y-md mb-lg md:mb-xl">
               {features.map((i) => (
-                <li key={i} className="flex items-center gap-md">
-                  <Icon name="check_circle" className="text-primary-fixed" />
-                  <span className="font-body-lg">{t(`features.${i}`)}</span>
+                <li key={i} className="flex items-start md:items-center gap-sm md:gap-md">
+                  <Icon name="check_circle" className="text-primary-fixed shrink-0 mt-0.5 md:mt-0" />
+                  <span className="font-body-md text-body-md md:font-body-lg md:text-body-lg">
+                    {t(`features.${i}`)}
+                  </span>
                 </li>
               ))}
             </ul>
-            <div className="flex flex-wrap gap-md">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-sm md:gap-md">
               <button
                 type="button"
-                className="bg-surface text-on-surface px-8 py-4 rounded-xl flex items-center gap-md hover:scale-105 transition-transform"
+                className="bg-surface text-on-surface px-6 py-3 md:px-8 md:py-4 rounded-xl flex items-center gap-md hover:scale-105 transition-transform"
               >
                 <Icon name="phone_iphone" className="text-3xl" />
                 <div className="text-left">
@@ -38,7 +42,7 @@ export async function AppDownloadSection() {
               </button>
               <button
                 type="button"
-                className="bg-surface text-on-surface px-8 py-4 rounded-xl flex items-center gap-md hover:scale-105 transition-transform"
+                className="bg-surface text-on-surface px-6 py-3 md:px-8 md:py-4 rounded-xl flex items-center gap-md hover:scale-105 transition-transform"
               >
                 <Icon name="play_arrow" className="text-3xl" />
                 <div className="text-left">
@@ -50,9 +54,9 @@ export async function AppDownloadSection() {
               </button>
             </div>
           </RevealOnScroll>
-          <RevealOnScroll delay={200} className="flex-1 relative">
-            <div className="relative z-10 w-full max-w-xs mx-auto">
-              <div className="aspect-[9/19] relative rounded-[3rem] border-[8px] border-surface shadow-2xl overflow-hidden">
+          <RevealOnScroll delay={200} className="flex-1 relative w-full">
+            <div className="relative z-10 w-full max-w-[220px] md:max-w-[280px] mx-auto">
+              <div className="aspect-[9/19] relative rounded-[2rem] md:rounded-[3rem] border-[6px] md:border-[8px] border-surface shadow-2xl overflow-hidden">
                 <Image
                   src={images.home.appPhone}
                   alt=""
