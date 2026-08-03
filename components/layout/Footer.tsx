@@ -11,8 +11,8 @@ export function Footer() {
 
   const exploreLinks = [
     { href: "/training" as const, label: nav("training") },
-    { href: "/recipes" as const, label: nav("recipes") },
-    { href: "/shop" as const, label: nav("shop") },
+    // { href: "/recipes" as const, label: nav("recipes") }, // şimdilik pasif
+    // { href: "/shop" as const, label: nav("shop") }, // şimdilik pasif
     { href: "/membership" as const, label: nav("membership") },
   ];
 
