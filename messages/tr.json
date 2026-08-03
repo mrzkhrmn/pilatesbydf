@@ -54,35 +54,35 @@
   "home": {
     "hero": {
       "badge": "Hareketi Yeniden Tanımlıyoruz",
-      "title": "Hassas Pilates ile Dengeni Bul.",
-      "description": "Geleneksel ilkelerin ve modern atletizmin küratörlüğünde bir birleşimini deneyimleyin. Pilates By DF ile size fiziksel zarafet ve zihinsel berraklık yolculuğunda rehberlik ediyoruz. Şu anda sadece bire bir (1:1) ve grup dersleri olarak online platformda hizmetinizdeyiz.",
+      "title": "Kendi Matında,<br></br>Kendi Ritminde.",
+      "description": "Pilatesi spor salonuna gitmeden, evinizin rahatlığında keşfedin.<br></br>Geleneksel ilkelerin ve modern hareketlerin birleşimiyle, bedeninizi güçlendirirken zihninizi de dinlendirin. Dew Pilates By DF olarak size evde spor yaparken rehberlik ediyor, hem fiziksel zarafeti hem de zihinsel berraklığı birlikte deneyimlemenizi sağlıyoruz.<br></br>Şu anda bire bir (1:1) ve grup dersleriyle online platformda yanınızdayız.<nl></nl>Evde spor yapmayı daha keyifli, güvenli ve ulaşılabilir hale getirmek için buradayız.",
       "ctaPrimary": "Yolculuğuna Başla",
       "ctaSecondary": "Ders Programını Gör"
     },
     "whyUs": {
-      "title": "Bilime Dayalı, Niyetle Yükselen.",
-      "quote": "Misyonumuz, hareketin zihin ve beden arasında onarıcı bir diyaloğa dönüştüğü dijital bir sığınak yaratmaktır.",
+      "title": "Evinde Güçlen, Kendini Keşfet.",
+      "quote": "Misyonumuz, hareketi beden ve zihin arasında onarıcı bir diyaloğa dönüştüren, evinizin konforunda ulaşabileceğiniz dijital bir alan yaratmak.",
       "features": [
         {
           "icon": "video_camera_front",
           "title": "Online Butik Uzmanlık",
-          "description": "Hizalama detaylarını anlayan sertifikalı uzman eğitmenlerden ekran başında kişiselleştirilmiş eğitim."
+          "description": "Sertifikalı eğitmenlerle ekran başında kişiselleştirilmiş eğitim. Evde spor yapmak isteyen kadınlar için doğru hizalamayı öğrenmek ve güvenle ilerlemek artık çok daha kolay."
         },
         {
           "icon": "groups",
           "title": "Canlı Grup Dersleri",
-          "description": "Evinizin konforunda, motivasyon dolu grup seanslarımıza dünyanın her yerinden katılın."
+          "description": "Evinizin rahatlığında, motivasyon dolu grup seanslarına dünyanın her yerinden katılın. Birlikte hareket etmenin enerjisini evinizde hissedin."
         },
         {
           "icon": "person",
           "title": "Bire Bir Odak",
-          "description": "Sadece size özel hedeflere odaklanan, esnek online programlarla gelişiminizi hızlandırın."
+          "description": "Sadece size özel hedeflere yönelen esnek online programlarla gelişiminizi hızlandırın. Evde spor yaparken yanınızda olan bir eğitmenle, güvenle ve keyifle ilerleyin."
         }
       ]
     },
     "ecosystem": {
       "title": "Pilates Ekosistemi",
-      "subtitle": "Sağlıklı ve hareketli bir yaşam tarzını sürdürmek için ihtiyacınız olan her şey, seçici bireyler için küratörlükle hazırlandı.",
+      "subtitle": "Evinizin rahatlığında sağlıklı ve hareketli bir yaşam sürmeniz için ihtiyacınız olan her şey, online stüdyomuzda sizi bekliyor.",
       "training": {
         "badge": "Sadece Online: 1:1 ve Grup",
         "title": "Eğitim Programları",
@@ -196,7 +196,11 @@
       "plan1": {
         "badge": "14 Günlük Meydan Okuma",
         "title": "Anti-Inflamatuar Işıltı",
-        "features": ["Sıfır rafine şeker", "Yüksek Omega-3 odaklı", "Tam öğün hazırlama rehberi"],
+        "features": [
+          "Sıfır rafine şeker",
+          "Yüksek Omega-3 odaklı",
+          "Tam öğün hazırlama rehberi"
+        ],
         "cta": "Tüm Planı Görüntüle"
       },
       "plan2": {
@@ -243,7 +247,13 @@
     "badge": "Egzersiziniz için temel ihtiyaçlar",
     "title": "Butik Mağaza",
     "description": "Akıcı hareket ve yenileyici zarafet için tasarlanmış seçkin ekipman ve kıyafetler. Zihinsel berraklık ve fiziksel güç yolculuğunuzu desteklemek için her parça özenle seçildi.",
-    "filters": ["Tüm Ürünler", "Yoga Matları", "Giyim", "Suluklar", "Aksesuarlar"],
+    "filters": [
+      "Tüm Ürünler",
+      "Yoga Matları",
+      "Giyim",
+      "Suluklar",
+      "Aksesuarlar"
+    ],
     "newArrival": "Yeni Gelenler",
     "featured": "Öne Çıkan",
     "addToCart": "Sepete Ekle",
@@ -253,12 +263,36 @@
       "cta": "Seriyi Keşfedin"
     },
     "products": [
-      { "name": "Temel Reformer Matı", "variant": "Adaçayı Yeşili", "price": "₺3.950,00" },
-      { "name": "Core Sculpt Tayt", "variant": "Espresso", "price": "₺2.850,00" },
-      { "name": "Yalıtımlı Hidro Suluk", "variant": "Kum Rengi", "price": "₺1.450,00" },
-      { "name": "Dikişsiz Fitilli Crop", "variant": "Toprak Tonu", "price": "₺1.950,00" },
-      { "name": "Hizalama Blok Seti", "variant": "Doğal Mantar", "price": "₺1.650,00" },
-      { "name": "Flow Motion Şort", "variant": "Sis Grisi", "price": "₺2.150,00" }
+      {
+        "name": "Temel Reformer Matı",
+        "variant": "Adaçayı Yeşili",
+        "price": "₺3.950,00"
+      },
+      {
+        "name": "Core Sculpt Tayt",
+        "variant": "Espresso",
+        "price": "₺2.850,00"
+      },
+      {
+        "name": "Yalıtımlı Hidro Suluk",
+        "variant": "Kum Rengi",
+        "price": "₺1.450,00"
+      },
+      {
+        "name": "Dikişsiz Fitilli Crop",
+        "variant": "Toprak Tonu",
+        "price": "₺1.950,00"
+      },
+      {
+        "name": "Hizalama Blok Seti",
+        "variant": "Doğal Mantar",
+        "price": "₺1.650,00"
+      },
+      {
+        "name": "Flow Motion Şort",
+        "variant": "Sis Grisi",
+        "price": "₺2.150,00"
+      }
     ],
     "featuredProduct": {
       "name": "Pro Direnç Çemberi",
@@ -349,12 +383,18 @@
       "badge": "Öne Çıkan Hikaye",
       "title": "Dinginliği Bulmak: Restoratif Pilates Sanatı",
       "description": "Kontrollü hareket ve nefes çalışmasının zihinsel berraklığınızı ve fiziksel zarafetinizi nasıl dönüştürebileceğini keşfedin.",
-      "author": "Daniella Floress",
+      "author": "Damla Filizkıran",
       "role": "Kurucu ve Baş Eğitmen",
       "readTime": "8 Dakika Okuma",
       "discussion": "Bu sabah rutinimi tamamen değiştirdi."
     },
-    "categories": ["Tüm Hikayeler", "Sağlık İpuçları", "Stüdyo Haberleri", "Beslenme", "Röportajlar"],
+    "categories": [
+      "Tüm Hikayeler",
+      "Sağlık İpuçları",
+      "Stüdyo Haberleri",
+      "Beslenme",
+      "Röportajlar"
+    ],
     "filter": "Filtrele",
     "searchPlaceholder": "Makale ara...",
     "articles": [

@@ -54,35 +54,35 @@
   "home": {
     "hero": {
       "badge": "Redefining Movement",
-      "title": "Find Your Balance with Precision Pilates.",
-      "description": "Experience a curated fusion of traditional principles and modern athleticism. At Pilates By DF, we guide you on a journey of physical grace and mental clarity. Currently available exclusively online through 1:1 and group classes.",
+      "title": "On Your Mat,<br></br>In Your Rhythm.",
+      "description": "Discover Pilates from the comfort of your home — no gym required.<br></br>With a blend of traditional principles and modern movement, strengthen your body while calming your mind. At Pilates By DF, we guide you through home workouts so you can experience both physical grace and mental clarity together.<br></br>We're with you online through one-on-one (1:1) and group classes.<nl></nl>We're here to make working out at home more enjoyable, safer, and more accessible.",
       "ctaPrimary": "Start Your Journey",
       "ctaSecondary": "View Class Schedule"
     },
     "whyUs": {
-      "title": "Science-Backed, Intentionally Elevated.",
-      "quote": "Our mission is to create a digital sanctuary where movement becomes a restorative dialogue between mind and body.",
+      "title": "Get Stronger at Home, Discover Yourself.",
+      "quote": "Our mission is to create a digital space you can reach from the comfort of your home — where movement becomes a restorative dialogue between body and mind.",
       "features": [
         {
           "icon": "video_camera_front",
           "title": "Online Boutique Expertise",
-          "description": "Personalized instruction from certified expert trainers who understand alignment details, right from your screen."
+          "description": "Personalized training with certified instructors, right from your screen. For women who want to work out at home, learning proper alignment and progressing with confidence is now much easier."
         },
         {
           "icon": "groups",
           "title": "Live Group Classes",
-          "description": "Join our motivating group sessions from anywhere in the world, from the comfort of your home."
+          "description": "Join motivating group sessions from anywhere in the world, from the comfort of your home. Feel the energy of moving together — at home."
         },
         {
           "icon": "person",
           "title": "One-on-One Focus",
-          "description": "Accelerate your progress with flexible online programs focused on goals tailored just for you."
+          "description": "Accelerate your progress with flexible online programs tailored to your goals. With an instructor by your side while you work out at home, move forward safely and joyfully."
         }
       ]
     },
     "ecosystem": {
       "title": "The Pilates Ecosystem",
-      "subtitle": "Everything you need to sustain a healthy, active lifestyle — curated for discerning individuals.",
+      "subtitle": "Everything you need to live a healthy, active life from the comfort of your home is waiting for you in our online studio.",
       "training": {
         "badge": "Online Only: 1:1 & Group",
         "title": "Training Programs",
@@ -117,7 +117,13 @@
     "title": "Training Library",
     "description": "Discover our curated Pilates sessions designed to restore balance, build functional strength, and enhance mental clarity through our 100% online studio.",
     "searchPlaceholder": "Search classes...",
-    "filters": ["All Classes", "Beginner", "Intermediate", "Advanced", "Live Classes"],
+    "filters": [
+      "All Classes",
+      "Beginner",
+      "Intermediate",
+      "Advanced",
+      "Live Classes"
+    ],
     "sortLabel": "Sort by:",
     "sortOptions": ["Newest", "Longest", "Shortest", "Popularity"],
     "pagination": "Page {current} / {total}",
@@ -196,7 +202,11 @@
       "plan1": {
         "badge": "14-Day Challenge",
         "title": "Anti-Inflammatory Glow",
-        "features": ["Zero refined sugar", "High Omega-3 focus", "Full meal prep guide"],
+        "features": [
+          "Zero refined sugar",
+          "High Omega-3 focus",
+          "Full meal prep guide"
+        ],
         "cta": "View Full Plan"
       },
       "plan2": {
@@ -243,7 +253,13 @@
     "badge": "Essentials for your practice",
     "title": "Boutique Shop",
     "description": "Curated equipment and apparel designed for fluid movement and restorative elegance. Every piece is carefully selected to support your journey of mental clarity and physical strength.",
-    "filters": ["All Products", "Yoga Mats", "Apparel", "Bottles", "Accessories"],
+    "filters": [
+      "All Products",
+      "Yoga Mats",
+      "Apparel",
+      "Bottles",
+      "Accessories"
+    ],
     "newArrival": "New Arrivals",
     "featured": "Featured",
     "addToCart": "Add to Cart",
@@ -253,12 +269,36 @@
       "cta": "Explore the Series"
     },
     "products": [
-      { "name": "Essential Reformer Mat", "variant": "Sage Green", "price": "$129.00" },
-      { "name": "Core Sculpt Leggings", "variant": "Espresso", "price": "$89.00" },
-      { "name": "Insulated Hydro Bottle", "variant": "Sand", "price": "$45.00" },
-      { "name": "Seamless Ribbed Crop", "variant": "Earth Tone", "price": "$58.00" },
-      { "name": "Alignment Block Set", "variant": "Natural Cork", "price": "$48.00" },
-      { "name": "Flow Motion Shorts", "variant": "Mist Grey", "price": "$62.00" }
+      {
+        "name": "Essential Reformer Mat",
+        "variant": "Sage Green",
+        "price": "$129.00"
+      },
+      {
+        "name": "Core Sculpt Leggings",
+        "variant": "Espresso",
+        "price": "$89.00"
+      },
+      {
+        "name": "Insulated Hydro Bottle",
+        "variant": "Sand",
+        "price": "$45.00"
+      },
+      {
+        "name": "Seamless Ribbed Crop",
+        "variant": "Earth Tone",
+        "price": "$58.00"
+      },
+      {
+        "name": "Alignment Block Set",
+        "variant": "Natural Cork",
+        "price": "$48.00"
+      },
+      {
+        "name": "Flow Motion Shorts",
+        "variant": "Mist Grey",
+        "price": "$62.00"
+      }
     ],
     "featuredProduct": {
       "name": "Pro Resistance Ring",
@@ -349,12 +389,18 @@
       "badge": "Featured Story",
       "title": "Finding Stillness: The Art of Restorative Pilates",
       "description": "Discover how controlled movement and breathwork can transform your mental clarity and physical grace.",
-      "author": "Daniella Floress",
+      "author": "Damla Filizkıran",
       "role": "Founder & Head Instructor",
       "readTime": "8 Min Read",
       "discussion": "This completely changed my morning routine."
     },
-    "categories": ["All Stories", "Wellness Tips", "Studio News", "Nutrition", "Interviews"],
+    "categories": [
+      "All Stories",
+      "Wellness Tips",
+      "Studio News",
+      "Nutrition",
+      "Interviews"
+    ],
     "filter": "Filter",
     "searchPlaceholder": "Search articles...",
     "articles": [
