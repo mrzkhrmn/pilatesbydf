@@ -10,8 +10,8 @@ import { images } from "@/lib/images";
 
 const navItems = [
   { key: "training" as const, href: "/training" },
-  { key: "recipes" as const, href: "/recipes" },
-  { key: "shop" as const, href: "/shop" },
+  // { key: "recipes" as const, href: "/recipes" }, // şimdilik pasif
+  // { key: "shop" as const, href: "/shop" }, // şimdilik pasif
   { key: "membership" as const, href: "/membership" },
   { key: "blog" as const, href: "/blog" },
 ];
@@ -68,13 +68,6 @@ export function Navbar() {
           <LocaleSwitcher />
           <button
             type="button"
-            className="hidden md:flex items-center justify-center p-2 text-primary hover:opacity-80 transition-all"
-            aria-label="Cart"
-          >
-            <Icon name="shopping_cart" size={28} />
-          </button>
-          <button
-            type="button"
             className="hidden md:block bg-primary text-on-primary px-6 py-2 rounded-full font-label-lg hover:opacity-90 transition-all active:scale-95"
           >
             {t("login")}
@@ -98,7 +91,9 @@ export function Navbar() {
               href={item.href}
               onClick={() => setMobileOpen(false)}
               className={`block py-2 font-body-md ${
-                isActive(item.href) ? "text-primary font-semibold" : "text-on-surface-variant"
+                isActive(item.href)
+                  ? "text-primary font-semibold"
+                  : "text-on-surface-variant"
               }`}
             >
               {t(item.key)}
